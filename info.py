@@ -7,7 +7,7 @@ id_pattern = re.compile(r'^.\d+$')
 SESSION = environ.get('SESSION', 'FiletoLinkLeoX_Bot')
 API_ID = int(environ.get('API_ID', '26696048'))
 API_HASH = environ.get('API_HASH', '047b44ea746cab2d97ace09d8988e785')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7899034927:AAHDMGKEKHdALaV6M1UrJzBCLLzvxQPeyas")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7899034927:AAHa6naHbxlmLYKwkyIQgMEgd5oCxENqwMM")
 
 # Bot settings
 PORT = environ.get("PORT", "8080")
@@ -20,7 +20,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "7899034927:AAHDMGKEKHdALaV6M1UrJzBCLLzvxQPeyas")
+URL = environ.get("URL", "7899034927:AAHa6naHbxlmLYKwkyIQgMEgd5oCxENqwMM")
 
 # Admins, Channels & Users
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '1002884235203'))
