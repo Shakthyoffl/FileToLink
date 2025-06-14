@@ -4,7 +4,7 @@ from os import environ
 id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
-SESSION = environ.get('SESSION', 'FileToLink')
+SESSION = environ.get('SESSION', 'FiletoLinkLeoX_Bot')
 API_ID = int(environ.get('API_ID', '26696048'))
 API_HASH = environ.get('API_HASH', '047b44ea746cab2d97ace09d8988e785')
 BOT_TOKEN = environ.get('BOT_TOKEN', "7899034927:AAHDMGKEKHdALaV6M1UrJzBCLLzvxQPeyas")
